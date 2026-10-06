@@ -1,17 +1,29 @@
-# radiant_clock
+# ⏱️ Radiant Clock — Flutter Dual Clock App
 
-A new Flutter project.
+A responsive mobile application built with **Flutter** and **Dart** featuring a dual analog and digital clock interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🌟 Features
 
-A few resources to get you started if this is your first Flutter project:
+- **Dual Time Display:** Simultaneous real-time analog clock hands and digital clock rendering.
+- **Custom Painter UI:** Built using Flutter's `CustomPainter` API for smooth vector clock face rendering and animated clock hands.
+- **Modular Architecture:** Clean file organization separating `analog_clock.dart`, `digital_clock.dart`, and `main.dart`.
+- **Command-Line Build:** Configured and launched via Android SDK command-line tools without full IDE overhead.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Framework:** Flutter
+- **Language:** Dart
+- **State & Graphics:** CustomPainter, AnimationController / Timer
+- **Tooling:** Android SDK Tools (`C:\Android\Sdk`), ADB
+
+---
+
+## 🚀 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone [https://github.com/ShifaNoorani/radiant_clock.git](https://github.com/ShifaNoorani/radiant_clock.git)
